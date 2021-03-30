@@ -63,10 +63,11 @@
     display: block;
   }
 
+  img{
+      width: 100%;
+      max-width: 100%;
+  }
   body{ 
     text-align: center;
-    background-image: url('ecu-background2.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
     background-color: lightblue;
   }
