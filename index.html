@@ -13,8 +13,35 @@
         <a href="#contact">Contact</a>
         <a href="#about">About</a>
       </div>
+      <div class="dropdown">
+        <button class="dropbtn" onclick="myFunction()">Dropdown<i class="fa fa-caret-down"></i></button>
+        <div class="dropdown-content" id="myDropdown">
+          <a href="#">Unit 1</a>
+          <a href="#">Unit 2</a>
+          <a href="#">Unit 3</a>
+        </div>
+      </div>  
 <body>
     <h1>Spliff Dental</h1>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium, accusamus qui illum in eveniet a ullam architecto porro iusto omnis odit quasi repudiandae cum! Impedit similique deleniti aperiam vitae placeat!</p>
+    <p>'Did you ever hear the Tragedy of Darth Plagueis the wise? I thought not. It's not a story the Jedi would tell you. It's a Sith legend. Darth Plagueis was a Dark Lord of the Sith, so powerful and so wise he could use the Force to influence the midichlorians to create life... He had such a knowledge of the dark side that he could even keep the ones he cared about from dying. The dark side of the Force is a pathway to many abilities some consider to be unnatural. He became so powerful... the only thing he was afraid of was losing his power, which eventually, of course, he did. Unfortunately, he taught his apprentice everything he knew, then his apprentice killed him in his sleep. It's ironic he could save others from death, but not himself.' - Sheev Palpatine</p>
+
+    <script>
+        /* When the user clicks on the button, 
+        toggle between hiding and showing the dropdown content */
+        function myFunction() {
+          document.getElementById("myDropdown").classList.toggle("show");
+        }
+        
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function(e) {
+          if (!e.target.matches('.dropbtn')) {
+          var myDropdown = document.getElementById("myDropdown");
+            if (myDropdown.classList.contains('show')) {
+              myDropdown.classList.remove('show');
+            }
+          }
+        }
+        </script>
+
 </body>
 </html>
