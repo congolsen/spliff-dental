@@ -65,8 +65,8 @@
 
   body{ 
     text-align: center;
-    background-image: url("ecu-background.jpg");
+    background-image: url('ecu-background2.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-position: center;
     background-color: lightblue;
   }
