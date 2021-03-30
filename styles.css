@@ -11,7 +11,9 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 18px;
+    font-family: inherit; 
+    margin: 0;
   }
 
   .dropdown {
@@ -21,7 +23,7 @@
   
   .dropdown .dropbtn {
     cursor: pointer;
-    font-size: 16px;  
+    font-size: 18px;  
     border: none;
     outline: none;
     color: white;
@@ -64,4 +66,5 @@
   body{ 
       background: lightgray; 
       text-align: center;
+      background-image: url("ecu-pirates.jpg"); 
   }
