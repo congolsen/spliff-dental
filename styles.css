@@ -64,10 +64,10 @@
   }
 
   body{ 
-    background: lightgray; 
     text-align: center;
-    background-image: url('ecu-pirates.jpg');
+    background-image: url('ecu-background.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    background-color: lightblue;
   }
