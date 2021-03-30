@@ -63,10 +63,11 @@
     display: block;
   }
 
-  img{
-      width: 100%;
-      max-width: 100%;
+  .responsive {
+        max-width: 100%;
+        height: auto;
   }
+
   body{ 
     text-align: center;
     background-color: lightgray;
